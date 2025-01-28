@@ -11,6 +11,6 @@
 
 <h2 align="center">Tecnologias Usadas</h2>
 
-- **HTML**: Estrutura da página e elementos de interface.
-- **CSS**: Estilos para deixar a página mais bonita e responsiva.
+- **HTML**: Estrutura da página e elementos de interface;
+- **CSS**: Estilos para deixar a página mais bonita e responsiva;
 - **JavaScript**: Lógica de funcionamento do sorteio e manipulação da lista de nomes.

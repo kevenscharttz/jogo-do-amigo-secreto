@@ -1,4 +1,8 @@
 <h1 align="center"> Jogo do Número Secreto </h1>
+<p align="center"><img alt="GitHub License" src="https://img.shields.io/github/license/kevenscharttz/jogo-do-amigo-secreto"><img src="https://img.shields.io/badge/CSS-563d7c?&style=flat&logo=css3&logoColor=white" alt="CSS Badge">
+<img src="https://img.shields.io/badge/HTML-e34c26?style=flat&logo=html5&logoColor=white" alt="HTML Badge">
+<img src="https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E" alt="JavaScript Badge"></p>
+
 <img src="./assets/banner.png" alt="banner alura one">
 
 <p align="center">Este projeto é um simples sorteador de nomes que permite adicionar os nomes de amigos e, em seguida, sorteá-los aleatoriamente. Ideal para organizar brincadeiras de amigo secreto de maneira rápida e prática.</p>

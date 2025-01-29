@@ -1,7 +1,10 @@
 <h1 align="center"> Jogo do Número Secreto </h1>
-<p align="center"><img alt="GitHub License" src="https://img.shields.io/github/license/kevenscharttz/jogo-do-amigo-secreto"><img src="https://img.shields.io/badge/CSS-563d7c?&style=flat&logo=css3&logoColor=white" alt="CSS Badge">
-<img src="https://img.shields.io/badge/HTML-e34c26?style=flat&logo=html5&logoColor=white" alt="HTML Badge">
-<img src="https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E" alt="JavaScript Badge"></p>
+
+<div align="center">
+  <img alt="GitHub License" src="https://img.shields.io/github/license/kevenscharttz/jogo-do-amigo-secreto"><img src="https://img.shields.io/badge/CSS-563d7c?&style=flat&logo=css3&logoColor=white" alt="CSS Badge">
+  <img src="https://img.shields.io/badge/HTML-e34c26?style=flat&logo=html5&logoColor=white" alt="HTML Badge">
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E" alt="JavaScript Badge">
+</div>
 
 <img src="./assets/banner.png" alt="banner alura one">
 

@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E" alt="JavaScript Badge">
 </div>
 
-<img src="./assets/banner.png" alt="banner alura one">
+<img src="./src/assets/banner.png" alt="banner alura one">
 
 <p align="center">Este projeto é um simples sorteador de nomes que permite adicionar os nomes de amigos e, em seguida, sorteá-los aleatoriamente. Ideal para organizar brincadeiras de amigo secreto de maneira rápida e prática.</p>
 

@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">    
-    <title>Amigo Secreto</title>
-</head>
-
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-
-
-<body>
-    <main class="main-content">
-        <header class="header-banner">
-            <h1 class="main-title">AMIGO SECRETO</h1>
-            <img src="assets/amigo-secreto.png" alt="Imagem representativa de amigo secreto">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./src/style/reset.css">
+        <link rel="stylesheet" href="./src/style/vars.css">
+        <link rel="stylesheet" href="./src/style/style.css">
+        <title>Jogo do amigo secreto</title>
+    </head>
+    <body>
+        <header class="header-container">
+            <p class="logo">Jogo do amigo secreto</p>
+            <section class="menu">
+                <a href="#home" class="link__menu">Home</a>
+                <a href="#jogo" class="link__menu">Jogo</a>
+                <a href="#footer" class="link__menu">Contato</a>
+            </section>
         </header>
-        
-        <section class="input-section">
+        <main class="main-container" id="home">
+            <section class="introduction-section">
+                <div class="introduction__content">
+                    <p class="introduction__text">precisa de um sorteio?</p>
+                    <h1 class="introduction__title">Jogo do amigo secreto</h1>
+                </div>
+                <img src="./src/assets/insignia.webp" alt="">
+            </section>
+        </main>
+        <hr>
+        <section class="input-section" id="jogo">
             <h2 class="section-title">Digite o nome dos seus amigos</h2>
             <div class="input-wrapper">
                 <input type="text" id="amigo" class="input-name" placeholder="Digite um nome">
@@ -35,13 +41,38 @@
 
             <div class="button-container">
                 <button class="button-draw" onclick="sortearNomeAleatorio()" aria-label="Sortear amigo secreto">
-                    <img src="assets/play_circle_outline.png" alt="Ícone para sortear">
+                    <img src="./src/assets/play_circle_outline.png" alt="Ícone para sortear">
                     Sortear amigo
                 </button>
             </div>
+            <img src="./src/assets/amigos.png" alt="">
         </section>
-    </main>
+        <hr>
+        <footer class="footer-container" id="footer">
 
-    <script src="app.js" defer></script>
-</body>
+
+            <section class="footer__content">
+                <h2 class="footer__title">Vamos conversar mais!</h2>
+                <p class="footer__text">Caso queira conversar sobre o processo desse projeto, e como eu o criei, mande-me um e-mail. Siga-me nas redes abaixo para ver mais de meus projetos.</p>
+                <section class="footer-social-midias">
+                    <a href="https://github.com/kevenscharttz" target="_blank"><img src="./src/assets/github-brands.svg" alt="" class="midia"></a></a>
+                    <a href="https://www.linkedin.com/in/kevenscharttz/" target="_blank"><img src="./src/assets/linkedin-in-brands.svg" alt="" class="midia"></a>
+                    <a href="https://www.instagram.com/keven_scha/" target="_blank"><img src="./src/assets/instagram-brands.svg" alt="" class="midia"></a>
+                </section>
+            </section>
+
+
+            <section class="contact__form">
+                <input type="text" placeholder="Seu Nome" class="contact__name" required>
+            
+                <input type="email" placeholder="Seu Email" class="contact__email" required>
+            
+                <input type="text" placeholder="Mensagem" class="contact__menssage" required>
+            
+                <button type="submit" class="submit__button" onclick="submitEmail()">Enviar Mensagem</button>
+            </section>
+
+        </footer>
+        <script src="./script.js"></script>
+    </body>
 </html>

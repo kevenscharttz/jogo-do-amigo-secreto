@@ -1,5 +1,7 @@
 let listaDeAmigos = [];
 
+
+
 //função para adicionar cada nome digitado dentro do array
 function adicionarAmigos(){
     let amigos = document.getElementById("amigo").value.trim();
@@ -59,5 +61,9 @@ function gerarNumeroAleatorio(){
     return numeroAleatorio;
 }
 
+
+function submitEmail() {
+    alert("Não há lógica, ainda não aprendi kk ;-;");
+}
 
 

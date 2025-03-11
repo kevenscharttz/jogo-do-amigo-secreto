@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
 
 .header-container {
+    position: fixed;
+    background-color: #ffffff;
     font-family: 'Epilogue', sans-serif;
     width: 100%;
     height: 5rem;
